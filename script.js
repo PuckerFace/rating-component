@@ -10,12 +10,10 @@ for (let i = 0; i < rating.length; i++) {
     let score = i + 1;
     console.log(score);
     finalRating.innerHTML = `You selected ${score} out of 5`;
-    // rating[i].style.backgroundColor = 'white';
-    // rating[i].style.color = 'black';
+
     let button = e.currentTarget;
     rating.forEach((btn) => btn !== button && btn.classList.remove('white'));
     button.classList.toggle('white');
-    // rating[i].classList.toggle('white');
   });
 }
 submit.addEventListener('click', () => {
