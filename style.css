@@ -1,0 +1,123 @@
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(217, 12%, 63%);
+  --blue: hsl(213, 19%, 18%);
+  --light-blue: hsl(212, 23%, 22%);
+  --dark-blue: hsl(216, 12%, 8%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+.attribution {
+  margin-top: 30px;
+  font-size: 15px;
+  text-align: center;
+  color: var(--white);
+}
+.attribution a {
+  color: var(--orange);
+}
+body {
+  background-color: var(--dark-blue);
+}
+#star {
+  /* background-color: var(--grey); */
+  background-color: var(--light-blue);
+  padding: 15px;
+  border-radius: 50%;
+}
+.card {
+  background-color: var(--blue);
+  padding: 40px;
+  max-width: 450px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+#rating-card p {
+  width: 90%;
+}
+h1 {
+  color: var(--white);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+p {
+  color: var(--grey);
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-blue);
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--white);
+  text-align: center;
+}
+.btn:hover {
+  transition: 0.2s ease-in-out;
+  background-color: var(--orange);
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+#submit {
+  background-color: var(--orange);
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#submit:hover {
+  transition: 0.2s ease-in-out;
+  background-color: var(--white);
+  cursor: pointer;
+}
+#rated-card img {
+  display: block;
+  margin: auto;
+}
+#rated-card h1 {
+  text-align: center;
+}
+.appreciation p {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.white {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+#final-rating {
+  background-color: var(--light-blue);
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  color: var(--orange);
+  margin-top: 10px;
+  margin: 20px auto 0px auto;
+  text-align: center;
+}
