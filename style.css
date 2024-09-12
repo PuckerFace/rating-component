@@ -23,6 +23,11 @@
 }
 body {
   background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 #star {
   background-color: var(--light-blue);
@@ -34,7 +39,6 @@ body {
   padding: 40px;
   max-width: 450px;
   width: 100%;
-  margin: 20px auto;
   border-radius: 20px;
 }
 #rating-card p {
